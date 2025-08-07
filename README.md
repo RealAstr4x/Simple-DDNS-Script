@@ -14,9 +14,7 @@ How to get the ZONE_ID for your A record
 
 It should give output in your bash like this
 
-text.lol => (Zone Id) 
-aaa.text.lol => (Zone Id) 
-bbb.text.lol => (Zone Id)
+`text.lol => (Zone Id) aaa.text.lol => (Zone Id) bbb.text.lol => (Zone Id)`
 
 ### Any other questions? Add me on discord, "the_real_astr4x"!
 ---------------------------------------------------------
