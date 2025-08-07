@@ -4,7 +4,8 @@ A simple ddns script i made for cloudflare, thats helpful a lot when u dont have
 ### On the script itself there are instructions.
 
 
-
+Other helpful information 
+================================================================================================
 How to get the ZONE_ID for your A record
 
 curl -s -X GET "https://api.cloudflare.com/client/v4/zones/YOUR_ZONE_ID/dns_records?type=A" \
@@ -18,3 +19,4 @@ aaa.text.lol => (Zone Id)
 bbb.text.lol => (Zone Id)
 
 Any other questions? Add me on discord, "the_real_astr4x"!
+================================================================================================
