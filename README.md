@@ -19,4 +19,3 @@ aaa.text.lol => (Zone Id)
 bbb.text.lol => (Zone Id)
 
 ### Any other questions? Add me on discord, "the_real_astr4x"!
-================================================================================================
