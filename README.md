@@ -3,7 +3,7 @@ A simple ddns script i made for cloudflare, thats helpful a lot when u dont have
 
 On the script itself there are instructions.
 
-If you are here for a simple tutorial to get your A record id, here you go mate.
+How to get the ZONE_ID for your A record
 
 curl -s -X GET "https://api.cloudflare.com/client/v4/zones/YOUR_ZONE_ID/dns_records?type=A" \
   -H "Authorization: Bearer YOUR_API_TOKKEN" \
