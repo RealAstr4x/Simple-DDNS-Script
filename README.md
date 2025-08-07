@@ -1,7 +1,9 @@
 # Simple-DDNS-Script
 A simple ddns script i made for cloudflare, thats helpful a lot when u dont have a static ip.
 
-On the script itself there are instructions.
+### On the script itself there are instructions.
+
+
 
 How to get the ZONE_ID for your A record
 
