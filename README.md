@@ -4,7 +4,7 @@ A simple ddns script i made for cloudflare, thats helpful a lot when u dont have
 ### On the script itself there are instructions.
 
 
-### Other helpful information.
+###⬇️ Other helpful information. ⬇️
 
 * How to get the ZONE_ID for your A record.
 
