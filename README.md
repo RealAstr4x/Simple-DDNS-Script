@@ -4,7 +4,7 @@ A simple ddns script i made for cloudflare, thats helpful a lot when u dont have
 ### On the script itself there are instructions.
 
 
-###⬇️ Other helpful information. ⬇️
+### ⬇️Other helpful information⬇️
 
 * How to get the ZONE_ID for your A record.
 
@@ -12,12 +12,12 @@ A simple ddns script i made for cloudflare, thats helpful a lot when u dont have
   -H "Authorization: Bearer YOUR_API_TOKKEN" \
   -H "Content-Type: application/json" | jq -r '.result[] | "\(.name) => \(.id)"'`
 
-* It should give output in your bash like this.
+It should give output in your bash like this.
 
 `text.lol => (Zone Id) aaa.text.lol => (Zone Id) bbb.text.lol => (Zone Id)`
 
-Don't forget to make it executable by doing: `chmod +x ddns.sh` on your bash.
+* Don't forget to make it executable by doing: `chmod +x ddns.sh` on your bash.
 
-TIP: Automate this script with cronjob so you don't have to manually run it everytime!
+* TIP: Automate this script with cronjob so you don't have to manually run it everytime!
 
 ### Any other questions? Add me on discord, "the_real_astr4x"!
