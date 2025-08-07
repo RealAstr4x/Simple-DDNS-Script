@@ -4,7 +4,7 @@
 API_TOKEN="Your api tokken"
 ZONE_ID="Your zone id"
 RECORD_ID="Your record id"
-DOMAIN="You root domain !NOT SUBDOMAIN!"
+DOMAIN="It can also be subdomain ofc"
 
 # A simple txt file that will store your last ip so its no needed for cloudflare api to get triggered for no reason if your ip hasnt changed
 IP_FILE="/home/astr4x/last_ip.txt"  # (thats an example, please change the path to where u want to save the "last_ip" file
