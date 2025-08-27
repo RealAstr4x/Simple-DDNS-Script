@@ -31,7 +31,7 @@ fi
 RESPONSE=$(curl -s -X PUT "https://api.cloudflare.com/client/v4/zones/$ZONE_ID/dns_records/$RE>
   -H "Authorization: Bearer $API_TOKEN" \
   -H "Content-Type: application/json" \
-  --data "{\"type\":\"A\",\"name\":\"$DOMAIN\",\"content\":\"$IP\",\"ttl\":1,\"proxied\":false>
+  --data "{\"type\":\"A\",\"name\":\"$DOMAIN\",\"content\":\"$IP\",\"ttl\":1,\"proxied\":false}")
 
 # If new ip updated sucessfully, save it to the "last_ip" file
 if echo "$RESPONSE" | grep -q "\"success\":true"; then
