@@ -28,7 +28,7 @@ if [[ -f "$IP_FILE" ]]; then
 fi
 
 # Updating cloudflare, DO NOT change "$ZONE_ID" here cause we put the variables in the start
-RESPONSE=$(curl -s -X PUT "https://api.cloudflare.com/client/v4/zones/$ZONE_ID/dns_records/$RECORD_ID>
+RESPONSE=$(curl -s -X PUT "https://api.cloudflare.com/client/v4/zones/$ZONE_ID/dns_records/$RECORD_ID"
   -H "Authorization: Bearer $API_TOKEN" \
   -H "Content-Type: application/json" \
   --data "{\"type\":\"A\",\"name\":\"$DOMAIN\",\"content\":\"$IP\",\"ttl\":1,\"proxied\":false}")
